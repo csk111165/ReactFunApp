@@ -1,6 +1,6 @@
 import { useState } from "react";
 import AnimalShow from "./AnimalShow";
-import { Button } from 'react-bootstrap';
+//import { Button } from 'react-bootstrap';
 import Alert from 'react-bootstrap/Alert';
 import './App.css'
 
@@ -38,7 +38,7 @@ function App(){
         <Alert key="info" variant="warning">
             With ❣️ From your 🌘 
         </Alert>
-            <Button variant="primary" onClick={handleClick}>Add Animal</Button>
+            <button class="button is-danger is-rounded" onClick={handleClick}>Add Animal</button>
             <br/>
             <Alert key="info" variant="info">
             Click the button "Add Animal" to generate animals 🙂
