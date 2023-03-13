@@ -36,7 +36,7 @@ function App(){
             CutiePie💞, Here is something that I just build for you 💖
         </Alert>
         <Alert key="info" variant="warning">
-            CutiePie💞, Here is something that I just build for you 💖
+            With ❣️ From your 🌘 
         </Alert>
             <Button variant="primary" onClick={handleClick}>Add Animal</Button>
             <br/>
