@@ -31,9 +31,17 @@ function App(){
     return (
 
        <div className="app">
+
+         <Alert key="info" variant="info">
+            CutiePie💞, Here is something that I just build for you 💖
+        </Alert>
+        <Alert key="info" variant="warning">
+            CutiePie💞, Here is something that I just build for you 💖
+        </Alert>
             <Button variant="primary" onClick={handleClick}>Add Animal</Button>
+            <br/>
             <Alert key="info" variant="info">
-            Click here to generate animals 🙂
+            Click the button "Add Animal" to generate animals 🙂
         </Alert>
             <div className="animal-list">
                 {renderAnimals}
