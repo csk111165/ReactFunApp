@@ -40,8 +40,8 @@ function App(){
         </Alert>
             <button class="button is-danger is-rounded" onClick={handleClick}>Add Animal</button>
             <br/>
-            <Alert key="info" variant="info">
-            Click the button "Add Animal" to generate animals 🙂
+            <Alert key="info" variant="primary">
+            Click the button "Add Animal" to generate animals Now! 🙂
         </Alert>
             <div className="animal-list">
                 {renderAnimals}
